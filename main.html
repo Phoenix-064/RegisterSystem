@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="登录">
+    <meta name="description" content="这是一个登录界面">
+    <meta name="author" content="Phoenix">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Dendro.ico">
+    <title>SignIn</title>
+
+<body>
+    <div class="mainbox">
+        <main>
+            <h1>登录</h1>
+            <form onsubmit="return storage()">
+                <img src="Dendro.jpg"><br>
+                <label><input id="email" class="input" autofocus placeholder="请输入邮箱" type="email" required></label>
+                <label><input id="password" class="input" placeholder="请输入密码" type="password" required></label>
+                <input type="submit" onclick="storage()" value="提交" class="but">
+            </form>
+            <div class="url">
+                <a href="Register.html">注册</a>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</head>
+
+</html>
